@@ -1,0 +1,148 @@
+header{
+    padding: 20px 0;
+}
+
+.logo{
+    width: 940px;
+    position: relative;
+    margin: 20px 120px 48px 50px;
+    
+}
+
+.input-encriptar{
+    display:inline;
+    margin: 0 0 0 240px;
+    padding: 15px 10px;
+    width: 50%;
+    border-color: white;
+    font-family: "Inter"; 
+    font-weight: 500;
+    font-size: 25px;
+    color: #0A3871;
+    resize: none;
+    word-wrap: break-word;
+}
+
+
+.advertencia{ 
+    
+    margin: 2px 0 0 263px;
+    font-family: "Inter"; 
+    font-style: normal;
+    color: #343A40;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.vector{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 240px;
+    top: 462px;
+}
+
+.input-encriptar::placeholder {
+    color: #0A3871;
+  }
+
+.rectangulo{
+    position: absolute;
+    width: 20%;
+    height: 85%;
+    left: 1000px;
+    top: 70px;
+    background: white;
+    border-radius: 32px;
+    box-shadow: 0px 9px 3px rgba(0, 0, 0, 0.10);
+}
+
+.eco
+{
+    position:absolute;
+    width: 170px;
+    height: 150px;
+    left: 20%;
+    top: 20%;
+}
+
+.mensajes{
+    text-align: center; 
+    font-family: "Inter"; 
+    color: #343A40;
+}
+
+.descripcion-negritas{
+    
+    position: absolute;
+    top: 15em;
+    font-size: 20px;
+    font-weight: bold;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
+
+}
+.input-copiar{
+   padding: 355px 0 30px 8px; 
+   border: none;
+   overflow: hidden;
+   font-family: "Inter"; 
+   resize: none;
+   font-size: 12px;
+   width: 190px;
+   
+}
+
+.input-copiar::placeholder {
+    color: #0A3871;
+    text-align: center;
+  }
+
+.botenc{
+    position: absolute;
+    left: 240px;
+    top: 510px;
+    width: 328px;
+    padding: 24px;
+    font-family: 'Inter';
+    font-style: normal; 
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background: #0A3871;
+    border: none;
+    border-radius: 24px;
+}
+
+.botdes{
+    position: absolute;
+    left:592px;
+    top: 510px;
+    width: 328px;
+    padding: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #0A3871;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+.botencopy{
+    position: absolute;
+    left:1000px;
+    top: 510px;
+    width: 275px;
+    padding: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #0A3871;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    display: none;
+}
+
